@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Radio" 
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gaana" />
+
+     <TextView
+         android:id="@+id/tvChal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="" />
+
+     <Button
+         android:id="@+id/bBroad"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20sp"
+         android:layout_marginRight="20sp"
+         android:text="Broadcast" />
+
+     <Button
+         android:id="@+id/bListen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20sp"
+         android:text="Listen" />
+
+</LinearLayout>

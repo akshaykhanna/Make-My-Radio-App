@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crte"
+    android:gravity="bottom" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="243dp"
+        android:layout_height="322dp"
+        android:layout_weight="0.46" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bEGana"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:text="Search Gana" />
+
+            <Button
+                android:id="@+id/bERecord"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:text="Record" />
+
+            <Button
+                android:id="@+id/bEU"
+                android:layout_width="125dp"
+                android:layout_height="32dp"
+                android:text="Upload" />
+
+            <Button
+                android:id="@+id/bEPlay"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="108dp"
+                android:layout_height="34dp"
+                android:text="Publish" />
+
+            <Button
+                android:id="@+id/bMyLib"
+                android:layout_width="102dp"
+                android:layout_height="34dp"
+                android:text="My Lib" />
+
+            <TextView
+                android:id="@+id/tvEChalla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="153dp"
+                android:layout_height="144dp" >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

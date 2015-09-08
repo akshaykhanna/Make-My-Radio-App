@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.makemyradio"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+                <activity
+            android:name="com.example.makemyradio.Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name="com.example.makemyradio.LR"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.makemyradio.LR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity
+              android:name="com.example.makemyradio.Register"
+            android:label="@string/app_name" >
+                </activity>
+                
+                  <activity
+              android:name="com.example.makemyradio.Login"
+            android:label="@string/app_name" >
+                </activity>
+                
+                 <activity
+              android:name="com.example.makemyradio.Radio"
+            android:label="@string/app_name" >
+                </activity>
+                
+                  <activity
+              android:name="com.example.makemyradio.Listen"
+            android:label="@string/app_name" >
+                </activity>
+                
+                     <activity
+              android:name="com.example.makemyradio.New"
+            android:label="@string/app_name" >
+                </activity>
+                
+                        <activity
+              android:name="com.example.makemyradio.Edit"
+            android:label="@string/app_name" >
+                </activity>
+                 <activity
+              android:name="com.example.makemyradio.AudioRecordTest"
+            android:label="@string/app_name" >
+                </activity>
+                
+                        <activity
+              android:name="com.example.makemyradio.MainActivity"
+            android:label="@string/app_name" >
+                </activity>
+                
+                    
+    </application>
+
+</manifest>
